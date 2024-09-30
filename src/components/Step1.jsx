@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import Date from "./DateComponent";
+import DateComponent from "./DateComponent";
 
 function Step1({ formData, setFormData }) {
   const handleInputChange = (e) => {
@@ -72,7 +71,7 @@ function Step1({ formData, setFormData }) {
         <label className="text-lg font-medium text-gray-700">
           Project Dates
         </label>
-        <Date formData={formData} setFormData={setFormData} />
+        <DateComponent formData={formData} setFormData={setFormData} />
       </div>
 
       <div className="flex flex-col gap-3">

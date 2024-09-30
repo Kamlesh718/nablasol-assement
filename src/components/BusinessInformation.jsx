@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function BusinessInformation() {
   const [brandType, setBrandType] = useState("");

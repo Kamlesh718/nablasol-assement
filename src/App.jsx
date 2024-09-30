@@ -30,7 +30,10 @@ function App() {
     switch (currentStep) {
       case 0:
         return (
-          !!formData.projectName && (!!formData.client || !!formData.newClient)
+          !!formData.projectName &&
+          (!!formData.client || !!formData.newClient) &&
+          formData.startDate &&
+          formData.endDate
         );
       case 1:
         return (

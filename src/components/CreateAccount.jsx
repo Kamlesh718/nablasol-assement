@@ -122,14 +122,6 @@ function CreateAccount() {
           </div>
         </form>
       </div>
-      {/* <div className="w-1/2 mt-4 flex justify-end">
-        <button
-          type="submit"
-          className="px-7 bg-purple-600 text-white rounded-lg py-3 text-base font-semibold hover:bg-purple-700 transition  duration-300"
-        >
-          Next Step
-        </button>
-      </div> */}
     </div>
   );
 }
